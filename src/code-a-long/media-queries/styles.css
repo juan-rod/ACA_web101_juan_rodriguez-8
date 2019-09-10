@@ -37,3 +37,16 @@ body {
     background-color: peru;
   }
 }
+
+@media (min-width: 768px) {
+  .main-container .item {
+    background-color: red;
+  }
+}
+
+@media (min-width: 992px) {
+ .main-container .item {
+   width: 100%;
+   background: pink;
+ }
+}

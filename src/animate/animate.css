@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+
+*{
+  box-sizing: border-box;
+}
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  padding: 20px;
+  /* animation: change-background 1s ease infinite; */
+}
+h1 {
+  /* animation: change-text 4s ease infinite; */
+}
+/* Keyframes */
+@keyframes change-background {
+  0% {
+    background: #69b7eb;
+  }
+  50% {
+    background: #b3dbd3;
+  }
+  100% {
+    background: #f4d6db;
+  }
+}
+@keyframes change-text {
+  0% {
+    color: #69b7eb;
+  }
+  50% {
+    color: #b3dbd3;
+  }
+  100% {
+    color: #f4d6db;
+  }
+}
+
+/* CSS transition and animation are almost the same, 
+animations can dig deeper by giving your element a defined timeline 
+for when different style changes take effect */
+
+/* CSS keyframes allow changes to run automatically and continuously, 
+rather than just in response to mouse events the way transition does. */
+
+/* Keyframes are paired with the animation property to set the duration, 
+timing function, delay and direction instead of transition.  */
+
+/* each @keyframe rule gets a unique name. whatever you want to name it.
+generally, you should be specific to what the animation is doing. */
+
+/* pair it with the animation property in your class/id/tag */
+/* example - { animation: change-background 4s ease infinite; } */
+
+
+/* animation property */
+/* animation: duration | timing-function | delay | iteration-count | direction | fill-mode | play-state | name;
+-- duration – Sets how long the animation runs from start to finish.
+-- timing-function – Sets how the animation moves along the timing “track”, ie ease, ease-in, linear, etc.
+-- delay – how much time (if any) to wait before kicking off the animation sequence.
+-- iteration-count – how many times to play the animation, or infinite to loop it.
+ */

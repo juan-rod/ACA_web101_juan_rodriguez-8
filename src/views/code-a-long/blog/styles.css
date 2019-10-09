@@ -1,0 +1,10 @@
+.main-container {
+  height: 100%;
+  width: 100%;
+  border: 1px solid red;
+}
+.blog-container {
+  width: 60%;
+  height: 200px;
+  border: 1px solid red;
+}

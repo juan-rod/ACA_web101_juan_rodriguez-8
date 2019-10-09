@@ -1,0 +1,12 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  height: 600px;
+  width: 600px;
+  border: 1px solid red;
+}
+p {
+  border: 1px solid green;
+  
+}

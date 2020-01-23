@@ -1,0 +1,17 @@
+* {
+  /* box-sizing: border-box; */
+}
+html, body {
+  margin: 0;
+  height: 100%;
+}
+.container-fluid {
+  /* height: 100%; */
+  /* border: 1px solid red; */
+}
+h1 {
+  /* color: purple !important; */
+}
+.navbar {
+  display: flex;
+}
